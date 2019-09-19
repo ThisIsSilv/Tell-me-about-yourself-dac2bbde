@@ -1,0 +1,48 @@
+
+input{ width: 200px;
+	border-radius: 3px;
+ }
+
+body {
+  background-image: url("Damn.gif");
+  background-size: 1920px 1080px;
+}
+
+h1{color: White;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+h1:hover {
+	text-decoration: underline;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-size: 300%;
+}
+
+h2{color: White;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+h2:hover {
+	text-decoration: underline;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-size: 200%;
+}
+
+label{color: White;
+	text-shadow: 2px 2px 2px black;
+}
+
+label:hover {
+	text-decoration: underline;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-size: 120%;
+}
+
+.module {
+  cursor: url('sword.png'), auto;	
+}
