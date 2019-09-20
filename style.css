@@ -6,7 +6,7 @@ input{ width: 200px;
 body {
   background-image: url("Damn.gif");
   background-size: 1920px 1080px;
-   cursor: url('sword.png'), pointer;	
+   cursor: url('Dance.png'), pointer;	
 }
 
 h1{color: White;
@@ -41,9 +41,16 @@ label:hover {
 	text-decoration: underline;
 	color: black;
 	text-shadow: 2px 2px 2px white;
-	font-size: 120%;
+	}
+
+textarea {
+    border-color: red;
+    border-width: 5px;
+    Width: 20%;
+    height: 100px;
 }
 
-.module {
- 
-}
+textarea:focus {
+    border-color: Lime;
+    border-radius: 12px;
+ }
