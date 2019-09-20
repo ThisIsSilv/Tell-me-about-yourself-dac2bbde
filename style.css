@@ -6,6 +6,7 @@ input{ width: 200px;
 body {
   background-image: url("Damn.gif");
   background-size: 1920px 1080px;
+   cursor: url('sword.png'), pointer;	
 }
 
 h1{color: White;
@@ -44,5 +45,5 @@ label:hover {
 }
 
 .module {
-  cursor: url('sword.png'), auto;	
+ 
 }
